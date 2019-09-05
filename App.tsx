@@ -13,7 +13,7 @@ class ProfileScreen extends React.Component<NavigationScreenProps> {
     // const name = state.params.name;
     return (
       <Button
-        title={'Go to tss Welcome'}
+        title={'Go to tss Welcome2'}
         onPress={(): void => {
           this.props.navigation.navigate('Home', {
             name: 'Jane',
